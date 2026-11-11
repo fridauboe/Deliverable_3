@@ -1,1 +1,2 @@
+9d24db3 add requirements, git log and GitHub link
 a64ba58 Initial commit - Deliverable 3

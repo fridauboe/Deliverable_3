@@ -114,8 +114,9 @@ class Dice:
 # Warrior inherits from Character and has extra protection 
 class Warrior(Character):
     # Set the name and armor, with 5 as the default 
-    def __init__(self, name: str, armor: int = 5):
-        super().__init__(name)
+    def __init__(self, name: str, armor: int = 5, hp_max: int = 100,
+             damage: int = 10, weapon=None):
+        super().__init__(name, hp_max, damage, weapon)
         self.armor = armor
 
     # Reduces the damage by the armor, but never below 0 
@@ -126,10 +127,12 @@ class Warrior(Character):
 # Mage inherits from Character and uses Mana for magical attacks 
 class Mage(Character):
     #Set the starting Mana and maximum Mana
-    def __init__(self, name: str, mana: int = 30, mana_max: int = 30):
-        super().__init__(name)
+    def __init__(self, name: str, mana: int = 30, mana_max: int = 30,
+             hp_max: int = 100, damage: int = 10, weapon=None):
+        super().__init__(name, hp_max, damage, weapon)
         self.mana = mana
         self.mana_max = mana_max
+
 
     # Use 10 Mana to deal double damage 
     def attack(self, target) -> None:
