@@ -1,2 +1,4 @@
-9d24db3 add requirements, git log and GitHub link
-a64ba58 Initial commit - Deliverable 3
+* 83ea59a - Frida Ubøe, 77 minutes ago : Final updates to Deliverable 3
+* 7310b21 - Frida Ubøe, 88 minutes ago : Update code, notebook and submission files
+* 9d24db3 - Frida Ubøe, 28 hours ago : add requirements, git log and GitHub link
+* a64ba58 - Frida Ubøe, 28 hours ago : Initial commit - Deliverable 3
